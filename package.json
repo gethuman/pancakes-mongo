@@ -1,0 +1,30 @@
+{
+  "name": "pancakes-mongo",
+  "version": "0.0.1",
+  "description": "Pancakes plugin adapter for Mongo",
+  "main": "lib/pancakes.mongo.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gethuman/pancakes-mongo.git"
+  },
+  "keywords": [
+    "javascript",
+    "mongo"
+  ],
+  "author": "Jeff Whelpley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethuman/pancakes-mongo/issues"
+  },
+  "homepage": "https://github.com/gethuman/pancakes-mongo",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "mongoose": "^3.8.21",
+    "mongoskin": "^1.4.11",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "taste": "^0.1.29"
+  }
+}
