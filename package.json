@@ -8,6 +8,7 @@
     "url": "git://github.com/gethuman/pancakes-mongo.git"
   },
   "keywords": [
+    "pancakes.js",
     "javascript",
     "mongo"
   ],
