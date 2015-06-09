@@ -20,13 +20,13 @@
   "homepage": "https://github.com/gethuman/pancakes-mongo",
   "dependencies": {
     "lodash": "^3.9.3",
-    "mongoose": "4.0.4",
+    "mongoose": "4.0.5",
     "mongoskin": "^1.4.13",
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "batter": "0.0.41",
+    "batter": "0.0.42",
     "gulp": "^3.9.0",
-    "taste": "^0.1.66"
+    "taste": "^0.1.67"
   }
 }
