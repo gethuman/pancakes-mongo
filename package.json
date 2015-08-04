@@ -1,6 +1,6 @@
 {
   "name": "pancakes-mongo",
-  "version": "0.0.66",
+  "version": "0.0.67",
   "description": "Pancakes plugin adapter for Mongo",
   "main": "lib/pancakes.mongo.js",
   "repository": {
@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/gethuman/pancakes-mongo",
   "dependencies": {
-    "lodash": "^3.10.0",
+    "lodash": "^3.10.1",
     "mongoose": "4.0.6",
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "batter": "^0.1.7",
+    "batter": "^0.1.9",
     "gulp": "^3.9.0",
-    "taste": "^0.2.5"
+    "taste": "^0.2.6"
   }
 }
