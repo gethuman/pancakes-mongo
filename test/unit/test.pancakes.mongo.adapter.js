@@ -101,7 +101,6 @@ describe('UNIT ' + name, function () {
                 data: {
                     createUserId: caller._id,
                     createUsername: caller.name,
-                    createUserType: caller.type,
                     status: 'created'
                 }
             };
@@ -129,7 +128,6 @@ describe('UNIT ' + name, function () {
                 data: {
                     createUserId: caller.onBehalfOf._id,
                     createUsername: caller.onBehalfOf.name,
-                    createUserType: caller.onBehalfOf.type,
                     status: 'created'
                 }
             };
@@ -177,8 +175,7 @@ describe('UNIT ' + name, function () {
                 data: {
                     modifyDate: new Date(),
                     modifyUserId: caller._id,
-                    modifyUsername: caller.name,
-                    modifyUserType: caller.type
+                    modifyUsername: caller.name
                 }
             };
 
@@ -205,8 +202,7 @@ describe('UNIT ' + name, function () {
                 data: {
                     modifyDate: new Date(),
                     modifyUserId: caller.onBehalfOf.id,
-                    modifyUsername: caller.onBehalfOf.name,
-                    modifyUserType: caller.onBehalfOf.type
+                    modifyUsername: caller.onBehalfOf.name
                 }
             };
 
