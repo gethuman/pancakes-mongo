@@ -20,7 +20,7 @@
   "homepage": "https://github.com/gethuman/pancakes-mongo",
   "dependencies": {
     "lodash": "^3.10.1",
-    "mongoose": "4.2.4",
+    "mongoose": "4.1.10",
     "q": "^1.4.1"
   },
   "devDependencies": {
