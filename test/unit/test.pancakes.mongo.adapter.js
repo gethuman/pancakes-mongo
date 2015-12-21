@@ -35,9 +35,9 @@ describe('UNIT ' + name, function () {
 
     describe('clearCache()', function () {
         it('should remove item from the cache', function () {
-            taste.should.exist(Adapter.modelCache.post);  // from previous test
+            taste.should.exist(Adapter.cache.models.post);  // from previous test
             Adapter.clearCache();
-            Adapter.modelCache.should.deep.equal({});
+            Adapter.cache.models.should.deep.equal({});
         });
     });
 
