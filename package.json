@@ -21,7 +21,7 @@
   "dependencies": {
     "kerberos": "0.0.21",
     "lodash": "4.12.0",
-    "mongoose": "4.4.16",
+    "mongoose": "4.4.17",
     "q": "1.4.1"
   },
   "devDependencies": {
