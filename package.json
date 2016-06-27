@@ -21,11 +21,11 @@
   "dependencies": {
     "kerberos": "0.0.21",
     "lodash": "4.13.1",
-    "mongoose": "4.4.20",
+    "mongoose": "4.5.2",
     "q": "1.4.1"
   },
   "devDependencies": {
-    "batter": "0.1.41",
+    "batter": "0.1.42",
     "gulp": "3.9.1",
     "taste": "0.2.34"
   }
